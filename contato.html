@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Site Web Design</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <h1>Contato</h1>
+
+        <nav id="menu">
+            <a class="item" href="index.html">Início</a>
+            <a class="item" href="quem_somos.html">Quem Sou?</a>
+            <a class="item" href="produtos.html">Produtos</a>
+            <a class="item" href="contato.html">Contato</a>
+        </nav>
+
+        <nav id="formulario">
+        <p>Preencha o formulário (O formulário do site é um projeto de teste não coloque seus dados reais).</p>
+
+        <form action="envia_formulario.html" method="post">
+            <p>Nome</p>
+            <input type="text" name="nome">
+
+            <p>Email</p>
+            <input type="text" name="email">
+
+            <p>Telefone</p>
+            <input type="text" name="telofone">
+            
+            <p>Sexo</p>
+            <select name="sexo">
+                <option>Masculino</option>
+                <option>Feminino</option>
+            </select>
+
+            <p>Selecione suas opções</p>
+            <label>HTML<input type="checkbox" name="html"></label>
+            <label>CSS<input type="checkbox" name="css"></label>
+            <label>Java<input type="checkbox" name="java"></label>
+
+            <p>Você deseja receber notificações?</p>
+            <label>Sim<input type="radio" name="notificações" checked></label>
+            <label>Não<input type="radio" name="notificações"></label>
+
+            <p>Você é brasileiro?</p>
+            <label>Sim<input type="radio" name="nacionalidade" checked></label>
+            <label>Não<input type="radio" name="nacionalidade"></label>
+
+            <p>Menssagem</p>
+            <textarea name="mensagem"></textarea>
+
+            <br>
+
+            <input type="submit" value="concluir" name="">
+        </form>
+        </nav>
+
+        <footer class="footer">
+            <p>Desenvolvido por @isaquesilvafreelancer</p>
+        </footer>
+
+    </body>
+</html>

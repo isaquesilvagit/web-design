@@ -1,0 +1,236 @@
+body {
+    background-color: black;
+}
+ 
+
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+}
+
+.menu-vertical {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: gray; 
+}
+
+.menu-vertical:hover {
+    margin-top: 90px;
+    border: 2px solid white;
+    border-radius: 1px 10px;
+    margin-left: 150px;
+    transition: 1s;
+    scale: 2 ;
+}
+
+h2 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+h3 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;  
+}
+
+h4 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;  
+}
+
+h5 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px; 
+}
+
+#menu {
+    width: 800px;
+    background-color: gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.item {
+    max-width: 0px 10px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    text-decoration: none;
+    color: black;
+    padding: 7px 13px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: 1px solid gray;
+}
+
+
+.item:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+.produtos {
+    width: 800px;
+    height: 1300px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: gray; 
+}
+
+.quem_sou {
+    width: 1500px;
+    height: 750px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: gray; 
+}
+
+#formulario {
+    width: 800px;
+    height: 1000px;
+    border-radius: 10px;
+    background-color: gray; 
+}
+
+.sucess-formulario {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 750px;
+    background-color: gray; 
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: gray;
+}    
+
+@media (max-width:785px) {
+    .navigation{
+        padding: 18px 20px;
+    }
+
+    body {
+        width: 50%;
+        height: 50%;
+    }   
+
+    #menu {
+        width: 400px;
+        background-color: gray;
+        padding: 10px 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .menu-vertical {
+        width: 200px;
+        height: 225px;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 50px;
+        background-color: gray; 
+    }
+
+    .menu-vertical:hover {
+        margin-top: 80px;
+        border: 2px solid white;
+        border-radius: 1px 10px;
+        margin-left: 120px;
+        transition: 1s;
+        scale: 1.50 ;
+    }
+
+    .quem_sou {
+        width: 390px;
+        height: 350px;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 10px;
+        background-color: gray;
+
+    }
+
+    #formulario {
+        width: 400px;
+        height: 680px;
+        border-radius: 10px;
+        background-color: gray; 
+    }
+    
+    .produtos {
+        width: 400px;
+        height: 900px;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 20px;
+        background-color: gray; 
+    }
+
+    h5 {
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 12px; 
+
+    }
+    
+    img {
+        width: 50%;
+        height: 25%;
+
+    }
+
+    .sucess-formulario {
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 75px;
+        background-color: gray; 
+    }
+
+   .footer {
+        width: 785px;
+        height: 50px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+        background-color: gray;
+    }
+}
+
+@media (max-width:640px) {
+    .footer {
+        width: 640px;
+        height: 50px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+        background-color: gray;
+    }
+
+}   
